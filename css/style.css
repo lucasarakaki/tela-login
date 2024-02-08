@@ -1,0 +1,59 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #643d87 url(../img/fundo.jpg) no-repeat top center;
+}
+/*Inicio do container*/
+#container{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(142, 142, 142, 0.5);
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+/*Fim do container*/
+img#imagem{
+    margin-top: -60px;
+}
+form{
+    margin: 50px auto;
+}
+/*Estilo label e input*/
+label{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+input[type=text],
+input[type=password]{
+    width: 85%;
+    height: 50px;
+    margin: 10px auto;
+    padding-left: 50px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Icone dos input*/
+input[type=password]{
+    background: #eeebeb url(../img/icone-cadeado.png) no-repeat left;
+    background-position: 15px;
+}
+input[type=text]{
+    background: #eeebeb url(../img/icone-usuario.png) no-repeat left;
+    background-position: 15px;
+}
+/*Estilo do botão*/
+input[type=button]{
+    width: 95%;
+    height: 50px;
+    margin-top: 10px;
+    background: #ffa200;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background: #63db5a;
+}
